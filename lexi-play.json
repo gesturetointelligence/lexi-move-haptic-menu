@@ -6,7 +6,7 @@
   "authors": ["ravi"],
   "medium": "interactive",
   "tags": ["gesture", "magic", "react-native", "haptics"],
-  "demo_url": "",
+  "demo_url": "https://gesturetointelligence.github.io/lexi-move-haptic-menu/",
   "status": "active"
 }
 
