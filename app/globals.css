@@ -1,0 +1,84 @@
+/* Import Lexi Brand System Tokens */
+@import './lexi-tokens.css';
+
+/* Font Variables */
+:root {
+  --lexi-typography-family-sans: var(--font-founders), system-ui, sans-serif;
+  --lexi-typography-family-mono: var(--font-founders-mono), ui-monospace, monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:not(.copy-icon):not(.copy-icon *) {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, fill 0.3s ease;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: var(--lexi-bg);
+  color: var(--lexi-fg);
+  font-family: var(--lexi-typography-family-sans);
+  font-size: var(--lexi-typography-scale-base);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+}
+
+/* Light Theme */
+[data-theme="light"] {
+  --lexi-bg: #f8f9f9;
+  --lexi-fg: #151715;
+  --lexi-fg-muted: #7d827e;
+  --lexi-accent: #151715;
+  --lexi-border-subtle: rgba(125, 130, 126, 0.2);
+  --lexi-surface-card: rgba(125, 130, 126, 0.06);
+}
+
+[data-theme="light"] .accent-colored {
+  color: var(--lexi-fg);
+}
+
+/* Dark Theme (default) */
+[data-theme="dark"] {
+  --lexi-bg: #151715;
+  --lexi-fg: #f8f9f9;
+  --lexi-fg-muted: #7d827e;
+  --lexi-accent: #d0e62c;
+  --lexi-border-subtle: rgba(125, 130, 126, 0.2);
+  --lexi-surface-card: rgba(125, 130, 126, 0.06);
+}
+
+/* Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--lexi-accent);
+  color: var(--lexi-color-black);
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

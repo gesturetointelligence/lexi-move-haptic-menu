@@ -1,0 +1,33 @@
+{
+  "name": "lexi-move-haptic-menu",
+  "version": "1.0.0",
+  "description": "Long press radial menu with haptic feedback",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gesturetointelligence/lexi-move-haptic-menu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gesturetointelligence/lexi-move-haptic-menu/issues"
+  },
+  "homepage": "https://github.com/gesturetointelligence/lexi-move-haptic-menu#readme",
+  "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
+    "next": "^16.2.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "25.5.0",
+    "@types/react": "19.2.14",
+    "typescript": "5.9.3"
+  }
+}
