@@ -126,7 +126,7 @@
 
 .option-label {
   position: absolute;
-  bottom: -36px;
+  bottom: -14px;
   font: var(--lexi-typography-composite-label);
   letter-spacing: var(--lexi-typography-tracking-wide);
   text-transform: uppercase;
