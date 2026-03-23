@@ -127,9 +127,10 @@
 .option-label {
   position: absolute;
   bottom: -36px;
-  font-size: var(--lexi-font-size-caption);
-  line-height: var(--lexi-line-height-caption);
-  color: var(--lexi-fg-subtle);
+  font: var(--lexi-typography-composite-label);
+  letter-spacing: var(--lexi-typography-tracking-wide);
+  text-transform: uppercase;
+  color: var(--lexi-fg-muted);
   white-space: nowrap;
   opacity: 0;
   transition: opacity 0.2s ease-out;
