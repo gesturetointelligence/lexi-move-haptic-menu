@@ -1,0 +1,11 @@
+{
+  "name": "Haptic Menu",
+  "slug": "haptic-menu",
+  "description": "A Procreate-style long-press radial menu with haptic feedback for React Native.",
+  "date": "2026-03-21",
+  "authors": ["ravi"],
+  "medium": "interactive",
+  "tags": ["gesture", "magic", "react-native", "haptics"],
+  "demo_url": "",
+  "status": "active"
+}
