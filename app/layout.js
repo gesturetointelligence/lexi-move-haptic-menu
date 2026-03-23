@@ -26,7 +26,7 @@ const foundersGroteskMono = localFont({
 })
 
 export const metadata = {
-  title: 'Lexi Move — Haptic Menu',
+  title: 'Haptic Menu · Lexi Play',
   description: 'Long press radial menu with haptic feedback',
 }
 
